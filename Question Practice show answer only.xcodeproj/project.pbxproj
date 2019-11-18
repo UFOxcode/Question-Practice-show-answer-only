@@ -15,6 +15,7 @@
 		07ABB34023829184003592C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07ABB33E23829184003592C5 /* LaunchScreen.storyboard */; };
 		07ABB34B23829184003592C5 /* Question_Practice_show_answer_onlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ABB34A23829184003592C5 /* Question_Practice_show_answer_onlyTests.swift */; };
 		07ABB35623829184003592C5 /* Question_Practice_show_answer_onlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ABB35523829184003592C5 /* Question_Practice_show_answer_onlyUITests.swift */; };
+		07ABB3642382997E003592C5 /* QuestionStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ABB3632382997E003592C5 /* QuestionStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		07ABB35123829184003592C5 /* Question Practice show answer onlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Question Practice show answer onlyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07ABB35523829184003592C5 /* Question_Practice_show_answer_onlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question_Practice_show_answer_onlyUITests.swift; sourceTree = "<group>"; };
 		07ABB35723829184003592C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07ABB3632382997E003592C5 /* QuestionStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				07ABB33523829183003592C5 /* SceneDelegate.swift */,
 				07ABB33723829183003592C5 /* ViewController.swift */,
 				07ABB33923829183003592C5 /* Main.storyboard */,
+				07ABB3632382997E003592C5 /* QuestionStruct.swift */,
 				07ABB33C23829184003592C5 /* Assets.xcassets */,
 				07ABB33E23829184003592C5 /* LaunchScreen.storyboard */,
 				07ABB34123829184003592C5 /* Info.plist */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07ABB3642382997E003592C5 /* QuestionStruct.swift in Sources */,
 				07ABB33823829183003592C5 /* ViewController.swift in Sources */,
 				07ABB33423829183003592C5 /* AppDelegate.swift in Sources */,
 				07ABB33623829183003592C5 /* SceneDelegate.swift in Sources */,
